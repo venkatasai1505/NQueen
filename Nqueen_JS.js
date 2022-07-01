@@ -6,7 +6,7 @@ function queenPuzzle(rows, columns) {
   } else {
     return addQueen(rows - 1, columns);
   }
-}
+}  
 
 function addQueen(newRow, columns) {
   var newSolutions = [];
